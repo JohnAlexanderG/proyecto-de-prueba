@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from './components/atoms/Button';
 
 function App() {
   return (
@@ -17,6 +18,12 @@ function App() {
         >
           Learn React
         </a>
+        <Button texto='Enviar' />
+        <Button texto='Enviar 1' />
+        <Button texto='Enviar 2' />
+        <Button texto='asddasdas 3' />
+        <Button texto='Enviar 4' />
+        <Button texto='Enviar 5' />
       </header>
     </div>
   );
